@@ -44,35 +44,3 @@ function getTheme() {
 function setTheme(value) {
   document.documentElement.setAttribute(THEME_ATTR, value);
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll(".lightbox-trigger");
-    const lightbox = document.createElement("div");
-    lightbox.classList.add("lightbox-overlay");
-    lightbox.innerHTML = `
-      <span class="close-btn">&times;</span>
-      <img src="" alt="Lightbox Image">
-    `;
-    document.body.appendChild(lightbox);
-  
-    const lightboxImage = lightbox.querySelector("img");
-    const closeButton = lightbox.querySelector(".close-btn");
-  
-    images.forEach((image) => {
-      image.addEventListener("click", (e) => {
-        e.preventDefault();
-        lightboxImage.src = image.getAttribute("data-lightbox-src");
-        lightbox.classList.add("active");
-      });
-    });
-  
-    closeButton.addEventListener("click", () => {
-      lightbox.classList.remove("active");
-    });
-  
-    lightbox.addEventListener("click", (e) => {
-      if (e.target === lightbox) {
-        lightbox.classList.remove("active");
-      }
-    });
-  });
