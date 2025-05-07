@@ -1,8 +1,7 @@
 ---
-title: How to undo your git failure?
-tags: [External Post, Git]
+title: Le visa c'est la galère
+tags: []
 style: fill
-color: warning
-description: Using `git reflog` and `git reset` to save your code.
-external_url: https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74
+color: green
+description: 85 jours pour avoir son visa cela vous paraît long?
 ---

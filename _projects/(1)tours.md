@@ -9,7 +9,7 @@ Première sortie dans le centre de Brisbane, avec ses hautes tours.
 
 ![](../img/tour2.jpeg)
 
-![](../img/tour3.jpeg)
+![](../img/tour1.jpeg)
 
 > La nouvelle tour audiacieuse de Brisbane, appelée *The Star* : 
 
